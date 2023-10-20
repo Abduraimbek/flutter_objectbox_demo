@@ -1,0 +1,62 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:1",
+      "lastPropertyId": "7:2679165639102856718",
+      "name": "UniversityDBModel",
+      "properties": [
+        {
+          "id": "1:1753972950509010401",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6151972330310329825",
+          "name": "stateProvince",
+          "type": 9
+        },
+        {
+          "id": "3:6984108120238230085",
+          "name": "country",
+          "type": 9
+        },
+        {
+          "id": "4:7401219292537809823",
+          "name": "domains",
+          "type": 30
+        },
+        {
+          "id": "5:6654294177601339686",
+          "name": "webPages",
+          "type": 30
+        },
+        {
+          "id": "6:7595237600034295947",
+          "name": "alphaTwoCode",
+          "type": 9
+        },
+        {
+          "id": "7:2679165639102856718",
+          "name": "name",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:1",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
