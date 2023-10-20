@@ -1,3 +1,3 @@
 # flutter_objectbox_demo
 
-`objectbox-mode.json` file should not be deleted.
+`objectbox-model.json` file should not be deleted.
