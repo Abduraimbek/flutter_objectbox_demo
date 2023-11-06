@@ -5,42 +5,83 @@
   "entities": [
     {
       "id": "1:1",
-      "lastPropertyId": "7:2679165639102856718",
-      "name": "UniversityDBModel",
+      "lastPropertyId": "6:3452885334831522844",
+      "name": "ObjectboxCacheModel",
       "properties": [
         {
-          "id": "1:1753972950509010401",
+          "id": "1:3328067762315293424",
           "name": "id",
           "type": 6,
           "flags": 1
         },
         {
-          "id": "2:6151972330310329825",
+          "id": "2:866491399257874578",
+          "name": "key",
+          "type": 9,
+          "flags": 34848,
+          "indexId": "1:4830477045241199905"
+        },
+        {
+          "id": "3:7795191156177828008",
+          "name": "valueInt",
+          "type": 6
+        },
+        {
+          "id": "4:4917477547877918224",
+          "name": "valueString",
+          "type": 9
+        },
+        {
+          "id": "5:3276610087201799760",
+          "name": "valueBool",
+          "type": 1
+        },
+        {
+          "id": "6:3452885334831522844",
+          "name": "valudeDouble",
+          "type": 8
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:10",
+      "lastPropertyId": "7:8148008961226465168",
+      "name": "UniversityDBModel",
+      "properties": [
+        {
+          "id": "1:5175203585232802655",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3819548184800816940",
           "name": "stateProvince",
           "type": 9
         },
         {
-          "id": "3:6984108120238230085",
+          "id": "3:2802754949053377920",
           "name": "country",
           "type": 9
         },
         {
-          "id": "4:7401219292537809823",
+          "id": "4:1121919363232844306",
           "name": "domains",
           "type": 30
         },
         {
-          "id": "5:6654294177601339686",
+          "id": "5:6731054458600097634",
           "name": "webPages",
           "type": 30
         },
         {
-          "id": "6:7595237600034295947",
+          "id": "6:1997372052312762379",
           "name": "alphaTwoCode",
           "type": 9
         },
         {
-          "id": "7:2679165639102856718",
+          "id": "7:8148008961226465168",
           "name": "name",
           "type": 9
         }
@@ -48,8 +89,8 @@
       "relations": []
     }
   ],
-  "lastEntityId": "1:1",
-  "lastIndexId": "0:0",
+  "lastEntityId": "2:10",
+  "lastIndexId": "1:4830477045241199905",
   "lastRelationId": "0:0",
   "lastSequenceId": "0:0",
   "modelVersion": 5,

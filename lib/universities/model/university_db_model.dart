@@ -1,7 +1,7 @@
 import 'package:flutter_objectbox_demo/universities/model/university_api_model.dart';
 import 'package:objectbox/objectbox.dart';
 
-@Entity(uid: 1)
+@Entity(uid: 10)
 class UniversityDBModel {
   @Id()
   int id = 0;
